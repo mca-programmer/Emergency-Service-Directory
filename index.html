@@ -20,10 +20,16 @@
       </span>
     </div>
 
-    <div class="flex items-center gap-4">
-      <span class="flex items-center gap-1 text-red-500">❤️ <span id="likeCount">0</span></span>
-      <span class="flex items-center gap-1 text-yellow-500">🪙 <span id="coinCount">100</span></span>
-      <button class="bg-green-500 text-white px-3 py-1 rounded-lg">2 Copy</button>
+    <div class="flex items-center space-x-3">
+      <div class="flex items-center bg-green-50 px-3 py-1 rounded-full text-red-600 font-semibold">
+        <span id="heartCount">0</span> ❤️
+      </div>
+
+      <div class="flex items-center bg-green-50 px-3 py-1 rounded-full text-yellow-600 font-semibold">
+        <span id="coinCount">100</span> 🪙
+      </div>
+
+      <button class="bg-green-600 text-white px-4 py-1 rounded-full">Copy: <span id="copyCount">0</span></button>
     </div>
   </nav>
 
