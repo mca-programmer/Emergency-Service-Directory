@@ -42,7 +42,7 @@ const allItems = document.querySelectorAll(".item");
 getElementById শুধুমাত্র ID এর জন্য, getElementsByClassName class এর জন্য এবং live collection দেয়,
 querySelector / querySelectorAll CSS selector ব্যবহার করে এবং আরও flexible।
 
-2. কিভাবে DOM এ নতুন element তৈরি এবং insert করা যায়?
+## 2. কিভাবে DOM এ নতুন element তৈরি এবং insert করা যায়?
 ধাপগুলো:
 
 Element তৈরি করা – document.createElement দিয়ে।
@@ -59,7 +59,8 @@ newDiv.classList.add("my-class");
 
 const container = document.getElementById("container");
 container.appendChild(newDiv);               // ধাপ 3
-3. Event Bubbling কি এবং কিভাবে কাজ করে?
+
+##3. Event Bubbling কি এবং কিভাবে কাজ করে?
 Event Bubbling হলো যখন কোনো event target element থেকে শুরু করে parent element পর্যন্ত উপরে উঠে যায়।
 
 উদাহরণ: একটি button ক্লিক করলে প্রথমে button এর click, পরে parent div এর click trigger হয়।
@@ -79,7 +80,8 @@ nginx
 Copy code
 Child clicked
 Parent clicked
-4. Event Delegation কি? এটি কেন useful?
+
+##4. Event Delegation কি? এটি কেন useful?
 Event Delegation হলো একটি parent element এ listener বসানো যাতে তার child element এর event handle করা যায়।
 
 Child element এ আলাদা listener বসানোর প্রয়োজন হয় না।
@@ -99,7 +101,8 @@ list.addEventListener("click", (event) => {
     console.log("List item clicked:", event.target.textContent);
   }
 });
-5. preventDefault() এবং stopPropagation() এর পার্থক্য
+
+##5. preventDefault() এবং stopPropagation() এর পার্থক্য
 preventDefault()
 
 element এর default action বন্ধ করে।
