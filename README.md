@@ -1,7 +1,7 @@
 #  Answer the following questions clearly: <br>
 What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll? <br>
 How do you create and insert a new element into the DOM? <br>
-What is Event Bubbling and how does it work? <br>  
+What is Event Bubbling and how does it work? <br>
 What is Event Delegation in JavaScript? Why is it useful? <br>
 What is the difference between preventDefault() and stopPropagation() methods? <br>
 
